@@ -50,26 +50,7 @@
 
 </head>
 <body class="">
-  <?php
-  include "../db_config.php";
-  session_start();
-    if(isset($_POST['obtain'])){
-      
-      $paye_email = $_POST['paye-email'];
-      $name = $_POST['name'];
-      $phone = $_POST['phone'];
-      $status = 'NOT PAID';
-      $_SESSION['paye-email'] = $paye_email;
 
-      $sql = $conn->prepare("INSERT INTO admission_avi(`name`,`phone`,`email`,`payment_status`) VALUES(?,?,?,?)");
-      $sql->bind_param("ssss",$name,$phone,$paye_email,$status);
-      $sql->execute();
-      $sql->close();
-      if($sql){
-        echo "<script>location.href='../includes/pay.php'</script>";
-      }
-    }
-  ?>
 <div id="wrapper" class="clearfix">
   <!-- preloader -->
   <div id="preloader">
