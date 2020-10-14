@@ -535,7 +535,7 @@ ul.list.theme-color-red.check li:before,
 .menuzord .menuzord-menu > li.active > a,
 .menuzord .menuzord-menu > li:hover > a,
 .menuzord .menuzord-menu ul.dropdown li:hover > a {
-  background: #00BCD4;
+  background:#FF5252;
   color: #fff;
 }
 .menuzord .menuzord-menu > li.active > a i,

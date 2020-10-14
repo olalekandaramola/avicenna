@@ -1,21 +1,21 @@
+<?php include "db_config.php"; ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
-<!-- Mirrored from html.kodesolution.live/s/kidspro/v2.1/demo/index-mp-layout2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 22:20:06 GMT -->
 <head>
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="KidsPro - Kids Education & Kindergarten School HTML5 Template" />
-<meta name="keywords" content="kindergarten,children,kidsschool,school,baby,childschool,academy,course,education," />
-<meta name="author" content="ThemeMascot" />
+<meta name="description" content="Avicenna Elementary School website" />
+<meta name="keywords" content="Avicenna,nursery,primary,children,school,childschool,education,nigeria,ibadan,private" />
+<meta name="author" content="Lightsource,Merilek" />
 
 <!-- Page Title -->
-<title>KidsPro - Kids Education & Kindergarten School HTML5 Template</title>
+<title>Welcome To Avicenna Elementary School</title>
 
 <!-- Favicon and Touch Icons -->
-<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/favico.png" rel="shortcut icon" type="image/png">
 <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
 <link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
@@ -57,13 +57,6 @@
 <!-- Revolution Slider 5.x SCRIPTS -->
 <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
 <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -81,108 +74,10 @@
   <header id="header" class="header">
     <div class="header-top bg-theme-color-sky sm-text-center p-0">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="widget no-border m-0">
-              <ul class="list-inline font-13 sm-text-center mt-5">
-                <li>
-                  <a class="text-white" href="#">FAQ</a>
-                </li>
-                <li class="text-white">|</li>
-                <li>
-                  <a class="text-white" href="#">Help Desk</a>
-                </li>
-                <li class="text-white">|</li>
-                <li>
-                  <a class="text-white" href="#">Login</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="widget m-0 pull-right sm-pull-none sm-text-center">
-              <ul class="list-inline pull-right">
-                <li class="mb-0 pb-0">
-                  <div class="top-dropdown-outer pt-5 pb-10">
-                    <a class="top-cart-link has-dropdown text-white text-hover-theme-colored"><i class="fa fa-shopping-cart font-13"></i> (12)</a>
-                    <ul class="dropdown">
-                      <li>
-                        <!-- dropdown cart -->
-                        <div class="dropdown-cart">
-                          <table class="table cart-table-list table-responsive">
-                            <tbody>
-                              <tr>
-                                <td><a href="#"><img alt="" src="images/products/sm1.jpg"></a></td>
-                                <td><a href="#"> Product Title</a></td>
-                                <td>X3</td>
-                                <td>$ 100.00</td>
-                                <td><a class="close" href="#"><i class="fa fa-close font-13"></i></a></td>
-                              </tr>
-                              <tr>
-                                <td><a href="#"><img alt="" src="images/products/sm2.jpg"></a></td>
-                                <td><a href="#"> Product Title</a></td>
-                                <td>X2</td>
-                                <td>$ 70.00</td>
-                                <td><a class="close" href="#"><i class="fa fa-close font-13"></i></a></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                          <div class="total-cart text-right">
-                            <table class="table table-responsive">
-                              <tbody>
-                                <tr>
-                                  <td>Cart Subtotal</td>
-                                  <td>$170.00</td>
-                                </tr>
-                                <tr>
-                                  <td>Shipping and Handling</td>
-                                  <td>$20.00</td>
-                                </tr>
-                                <tr>
-                                  <td>Order Total</td>
-                                  <td>$190.00</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                          <div class="cart-btn text-right">
-                              <a class="btn btn-theme-color-sky btn-xs" href="shop-cart.html"> View cart</a>
-                              <a class="btn btn-dark btn-xs" href="shop-checkout.html"> Checkout</a>
-                          </div>
-                        </div>
-                        <!-- dropdown cart ends -->
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="mb-0 pb-0">
-                  <div class="top-dropdown-outer pt-5 pb-10">
-                    <a class="top-search-box has-dropdown text-white text-hover-theme-colored"><i class="fa fa-search font-13"></i> &nbsp;</a>
-                    <ul class="dropdown">
-                      <li>
-                        <div class="search-form-wrapper">
-                          <form method="get" class="mt-10">
-                            <input type="text" onfocus="if(this.value =='Enter your search') { this.value = ''; }" onblur="if(this.value == '') { this.value ='Enter your search'; }" value="Enter your search" id="searchinput" name="s" class="">
-                            <label><input type="submit" name="submit" value=""></label>
-                          </form>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="widget no-border m-0 mr-15 pull-right flip sm-pull-none sm-text-center">
-              <ul class="styled-icons icon-circled icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
-                <li><a href="#"><i class="fa fa-facebook text-white"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter text-white"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus text-white"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram text-white"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin text-white"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
+
+       <?php include "./includes/header.php"; ?>
+
       </div>
     </div>
     <div class="header-middle p-0 bg-lightest xs-text-center">
@@ -190,7 +85,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-5">
             <div class="widget no-border m-0">
-              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.png" alt=""></a>
+              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="../images/" alt="avicenna logo"></a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
@@ -199,7 +94,7 @@
                 <li><i class="fa fa-phone-square text-theme-color-sky font-36 mt-5 sm-display-block"></i></li>
                 <li>
                   <a href="#" class="font-12 text-black text-uppercase">Call us today!</a>
-                  <h5 class="font-14 text-theme-color-blue m-0"> +(012) 345 6789</h5>
+                  <h5 class="font-14 text-theme-color-blue m-0"> +234 avicenna</h5>
                 </li>
               </ul>
             </div>
@@ -210,7 +105,7 @@
                 <li><i class="fa fa-clock-o text-theme-color-red font-36 mt-5 sm-display-block"></i></li>
                 <li>
                   <a href="#" class="font-12 text-black text-uppercase">We are open!</a>
-                  <h5 class="font-13 text-theme-color-blue m-0"> Mon-Fri 8:00-16:00</h5>
+                  <h5 class="font-13 text-theme-color-blue m-0"> Monday-Friday</h5>
                 </li>
               </ul>
             </div>
@@ -219,9 +114,9 @@
       </div>
     </div>
     <div class="header-nav">
-      <div class="header-nav-wrapper navbar-scrolltofixed bg-theme-color-red border-bottom-theme-color-sky-2px">
+    <div style="background-color:#00BCD4;" class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-sky-2px">
         <div class="container">
-          <nav id="menuzord" class="menuzord bg-theme-colored pull-left flip menuzord-responsive">
+          <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
             <ul class="menuzord-menu">
               <li class="active"><a href="">Home</a></li>
               <li><a href="about">About</a></li>
@@ -310,7 +205,7 @@
                   data-splitin="none"
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">Best Children Kindergarten
+                  style="z-index: 5; white-space: nowrap;">School Motto
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -336,7 +231,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">Kinder<span class="text-theme-color-red">Garten</span>
+                  style="z-index: 5; white-space: nowrap;"><p style="font-size:50px;">Avicenna <span class="text-theme-color-red">Elementary School</span></p>
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -362,7 +257,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; font-weight:500;">We provides always our best industrial solution for our clients <br>and  always try to achieve our client's trust and satisfaction.
+                  style="z-index: 5; white-space: nowrap; font-weight:500;">Children learn better by what they see than what is taught<br>At Avicenna, we did not only teach, we show them.
                 </div>
 
                 <!-- LAYER NR. 5 -->
@@ -386,7 +281,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="#">Contact Us</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="contact/">Contact Us</a>
                 </div>
               </li>
 
@@ -436,7 +331,7 @@
                   data-splitin="none"
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">Best Children Kindergarten
+                  style="z-index: 5; white-space: nowrap;">School Motto
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -462,7 +357,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">kinder<span class="text-theme-color-red">garten</span>
+                  style="z-index: 5; white-space: nowrap;"><p style="font-size:50px;">Avicenna <span class="text-theme-color-red">Elementary School</span></p>
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -488,7 +383,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; font-weight:500;">We provides always our best industrial solution for our clients <br>and  always try to achieve our client's trust and satisfaction.
+                  style="z-index: 5; white-space: nowrap; font-weight:500;">Education still remains the most powerful weapon you can give <br> to  children  to change thier world. We give such weapon.
                 </div>
 
                 <!-- LAYER NR. 5 -->
@@ -512,7 +407,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="#">Contact Us</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="contact/">Contact Us</a>
                 </div>
               </li>
 
@@ -562,7 +457,7 @@
                   data-splitin="none"
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">Best Children Kindergarten
+                  style="z-index: 5; white-space: nowrap;">School Motto
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -588,7 +483,9 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 5; white-space: nowrap;">Kinder<span class="text-theme-color-red">Garten</span>
+                  style="z-index: 5; white-space: nowrap;"><p style="font-size:50px;">Avicenna <span class="text-theme-color-red">Elementary School</span></p>
+
+
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -614,7 +511,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; font-weight:500;">We provides always our best industrial solution for our clients <br>and  always try to achieve our client's trust and satisfaction.
+                  style="z-index: 5; white-space: nowrap; font-weight:500;">We provide quality education to our students that liberate them <br> from ignorance and make them standout amidst thier peers.
                 </div>
 
                 <!-- LAYER NR. 5 -->
@@ -638,7 +535,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="#">Contact Us</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-theme-color-blue btn-lg btn-flat font-weight-600 pl-30 pr-30" href="contact/">Contact Us</a>
                 </div>
               </li>
 
@@ -749,25 +646,25 @@
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-140px" data-wow-duration="1s" data-wow-delay="0.1s">
               <img class="img-fullwidth" src="images/about/1.jpg" alt="">
               <div class="bg-theme-color-red border-1px p-20 pt-0 mb-sm-180">
-                <h3 class="text-white mt-20">Experience Yourself</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
-                <a href="#" class="btn btn-sm btn-theme-color-sky">Read more</a>
+                <h3 class="text-white mt-20">Enroll Your Child</h3>
+                <p class="text-white">Education still remains the best <b>legacy</b> any parent can give his/her ward.</p>
+                <a href="admission" class="btn btn-sm btn-theme-color-sky">Enroll</a>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-140px" data-wow-duration="1s" data-wow-delay="0.1s">
               <img class="img-fullwidth" src="images/about/2.jpg" alt="">
               <div class="bg-theme-color-yellow border-1px p-20 pt-0 mb-sm-180">
-                <h3 class="text-white mt-20">Quality lessons</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
-                <a href="#" class="btn btn-sm btn-theme-color-green">Read more</a>
+                <h3 class="text-white mt-20">Quality Education</h3>
+                <p class="text-white">Quailty education is the <b>bedrock</b> to success and every child deserves the right to it.We provide quality education.</p>
+                <!-- <a href="#" class="btn btn-sm btn-theme-color-green">Read more</a> -->
               </div>
             </div>
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-140px" data-wow-duration="1s" data-wow-delay="0.1s">
               <img class="img-fullwidth" src="images/about/3.jpg" alt="">
               <div class="bg-theme-color-sky border-1px p-20 pt-0">
-                <h3 class="text-white mt-20">Toys and Games</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
-                <a href="#" class="btn btn-sm btn-theme-color-red">Read more</a>
+                <h3 class="text-white mt-20">Better Tomorrow</h3>
+                <p class="text-white">To build a better tomorrow we must build our children.We <b>equip and prepare</b> our students for the future.</p>
+                <!-- <a href="#" class="btn btn-sm btn-theme-color-red">Read more</a> -->
               </div>
             </div>
           </div>
@@ -776,14 +673,17 @@
     </section>
 
     <!-- Section:about-->
+
+    <!-- <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Expert Teachers</h5>
+                    <p class="text-gray">At Avicenna Elementary School our teachers are well trained and highly qualified teachers.</p> -->
     <section>
       <div class="container pt-0">
         <div class="section-content">
           <div class="row">
             <div class="col-md-8">
               <div class="meet-doctors">
-                <h2 class="mt-0 line-height-1 text-theme-color-sky">Welcome To Kindergarten</h2>
-                <h3 class="letter-space-4 line-bottom text-theme-color-red title">World Best Education In Our Kindergarten</h3>
+                <h2 class="mt-0 line-height-1 text-theme-color-sky"><p style="font-size:35px;">Welcome To Avicenna Elementary School</p></h2>
+                <h5 class="letter-space-4 line-bottom text-theme-color-red title">School Motto</h5>
                 <p>Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus.Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus</p>
               </div>
               <div class="row mb-sm-30">
@@ -793,7 +693,7 @@
                     <i class="pe-7s-scissors text-white"></i>
                    </a>
                    <div class="ml-70 ml-sm-0">
-                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Active Learning</h5>
+                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Our Vision</h5>
                     <p class="text-gray">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet.</p>
                    </div>
                   </div>
@@ -804,7 +704,7 @@
                     <i class="pe-7s-pen text-white"></i>
                    </a>
                    <div class="ml-70 ml-sm-0">
-                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Funny and Happy</h5>
+                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10"> Mission Statement</h5>
                     <p class="text-gray">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet.</p>
                    </div>
                   </div>
@@ -815,7 +715,7 @@
                     <i class="pe-7s-phone text-white"></i>
                    </a>
                    <div class="ml-70 ml-sm-0">
-                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Fulfill With Love</h5>
+                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Our Values</h5>
                     <p class="text-gray">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet.</p>
                    </div>
                   </div>
@@ -826,7 +726,7 @@
                     <i class="pe-7s-light text-white"></i>
                    </a>
                    <div class="ml-70 ml-sm-0">
-                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Expert Teachers</h5>
+                    <h5 class="icon-box-title mt-10 letter-space-2 mb-10">Our Goal</h5>
                     <p class="text-gray">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet.</p>
                    </div>
                   </div>
@@ -844,201 +744,17 @@
       </div>
     </section>
 
-    <!-- Section: Courses -->
-    <section data-bg-img="images/bg/p2.jpg">
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="line-bottom-center mt-0">Our <span class="text-theme-color-red">Courses</span></h2>
-              <div class="title-flaticon">
-                <i class="flaticon-charity-alms"></i>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-            </div>
-          </div>
-        </div>
-        <div class="row multi-row-clearfix">
-          <div class="col-md-12">
-            <div class="owl-carousel-3col" data-nav="true">
-              <div class="item">
-                <div class="campaign bg-white maxwidth500 mb-30">
-                  <div class="thumb">
-                    <img src="images/project/12.jpg" alt="" class="img-fullwidth">
-                    <div class="campaign-overlay"></div>
-                  </div>
-                  <div class="course-details clearfix p-20 pt-15">
-                    <h4 class="price-tag">$250</h4>
-                    <h3 class="mt-0"><a class="text-theme-color-red" href="#">Learning Classes</a></h3>
-                    <ul class="review_text list-inline">
-                      <li>
-                        <div class="star-rating" title="Rated 5.00 out of 5"><span data-width="100%">5.00</span></div>
-                      </li>
-                    </ul>
-                    <p>Lorem ipsum dolor adipisicing elit. Prsent quossit sit amet consect adipisicin elit quosit</p>
-                    <div class="course-details-bottom mt-15">
-                      <ul class="list-inline">
-                       <li>Capacity<span>20 kids</span></li>
-                       <li>Duration<span>45 min</span></li>
-                       <li>Age<span>5y - 6y</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="campaign bg-white maxwidth500 mb-30">
-                  <div class="thumb">
-                    <img src="images/project/13.jpg" alt="" class="img-fullwidth">
-                    <div class="campaign-overlay"></div>
-                  </div>
-                  <div class="course-details clearfix p-20 pt-15">
-                    <h4 class="price-tag">$250</h4>
-                    <h3 class="mt-0"><a class="text-theme-color-lemon" href="#">Multimedia Classes</a></h3>
-                    <ul class="review_text list-inline">
-                      <li>
-                        <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%">4.50</span></div>
-                      </li>
-                    </ul>
-                    <p>Lorem ipsum dolor adipisicing elit. Prsent quossit sit amet consect adipisicin elit quosit</p>
-                    <div class="course-details-bottom mt-15">
-                      <ul class="list-inline">
-                       <li>Capacity<span>20 kids</span></li>
-                       <li>Duration<span>45 min</span></li>
-                       <li>Age<span>5y - 6y</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="campaign bg-white maxwidth500 mb-30">
-                  <div class="thumb">
-                    <img src="images/project/14.jpg" alt="" class="img-fullwidth">
-                    <div class="campaign-overlay"></div>
-                  </div>
-                  <div class="course-details clearfix p-20 pt-15">
-                    <h4 class="price-tag">$250</h4>
-                    <h3 class="mt-0"><a class="text-theme-color-sky" href="#">Language Classes</a></h3>
-                    <ul class="review_text list-inline">
-                      <li>
-                        <div class="star-rating" title="Rated 5.00 out of 5"><span data-width="100%">5.00</span></div>
-                      </li>
-                    </ul>
-                    <p>Lorem ipsum dolor adipisicing elit. Prsent quossit sit amet consect adipisicin elit quosit</p>
-                    <div class="course-details-bottom mt-15">
-                      <ul class="list-inline">
-                       <li>Capacity<span>20 kids</span></li>
-                       <li>Duration<span>45 min</span></li>
-                       <li>Age<span>5y - 6y</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="campaign bg-white maxwidth500 mb-30">
-                  <div class="thumb">
-                    <img src="images/project/15.jpg" alt="" class="img-fullwidth">
-                    <div class="campaign-overlay"></div>
-                  </div>
-                  <div class="course-details clearfix p-20 pt-15">
-                    <h4 class="price-tag">$250</h4>
-                    <h3 class="mt-0"><a class="text-theme-color-green" href="#">Drawing Classes</a></h3>
-                    <ul class="review_text list-inline">
-                      <li>
-                        <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%">4.50</span></div>
-                      </li>
-                    </ul>
-                    <p>Lorem ipsum dolor adipisicing elit. Prsent quossit sit amet consect adipisicin elit quosit</p>
-                    <div class="course-details-bottom mt-15">
-                      <ul class="list-inline">
-                       <li>Capacity<span>20 kids</span></li>
-                       <li>Duration<span>45 min</span></li>
-                       <li>Age<span>5y - 6y</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="campaign bg-white maxwidth500 mb-30">
-                  <div class="thumb">
-                    <img src="images/project/16.jpg" alt="" class="img-fullwidth">
-                    <div class="campaign-overlay"></div>
-                  </div>
-                  <div class="course-details clearfix p-20 pt-15">
-                    <h4 class="price-tag">$250</h4>
-                    <h3 class="mt-0"><a class="text-theme-color-orange" href="#">Math Classes</a></h3>
-                    <ul class="review_text list-inline">
-                      <li>
-                        <div class="star-rating" title="Rated 5.00 out of 5"><span data-width="100%">5.00</span></div>
-                      </li>
-                    </ul>
-                    <p>Lorem ipsum dolor adipisicing elit. Prsent quossit sit amet consect adipisicin elit quosit</p>
-                    <div class="course-details-bottom mt-15">
-                      <ul class="list-inline">
-                       <li>Capacity<span>20 kids</span></li>
-                       <li>Duration<span>45 min</span></li>
-                       <li>Age<span>5y - 6y</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Divider: Funfact -->
-    <section class="divider" data-bg-img="images/bg/p3.jpg">
-      <div class="container pt-90 pb-90">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact text-center">
-              <i class="pe-7s-users mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="864" class="animate-number text-white font-42 font-weight-300 mt-0 mb-0">0</h2>
-              <h5 class="text-white">Qualified Teachers</h5>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact text-center">
-              <i class="pe-7s-study mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="486" class="animate-number text-white font-42 font-weight-300 mt-0 mb-0">0</h2>
-              <h5 class="text-white">Successful Kids</h5>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact text-center">
-              <i class="pe-7s-smile mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="1468" class="animate-number text-white font-42 font-weight-300 mt-0 mb-0">0</h2>
-              <h5 class="text-white">Happy Parents</h5>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact text-center">
-              <i class="pe-7s-medal mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="32" class="animate-number text-white font-42 font-weight-300 mt-0 mb-0">0</h2>
-              <h5 class="text-white">Award Won</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
      <!-- Section: team -->
     <section>
       <div class="container pt-60">
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="line-bottom-center mt-0">Our <span class="text-theme-color-red">Teachers</span></h2>
+              <h2 class="line-bottom-center mt-0"><span class="text-theme-color-red">Management</span></h2>
               <div class="title-flaticon">
                 <i class="flaticon-charity-alms"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+             <!--  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p> -->
             </div>
           </div>
         </div>
@@ -1046,31 +762,16 @@
           <div class="row multi-row-clearfix">
             <div class="col-sm-6 col-md-3 mb-sm-30 sm-text-center">
               <div class="team maxwidth400">
-                <div class="thumb"><img class="img-fullwidth" src="images/team/team5.jpg" alt=""></div>
-                <div class="content border-1px p-15 bg-theme-color-green clearfix">
-                  <h3 class="name text-white mt-0">David Jakaria</h3>
-                  <p class="text-white mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
-                  <ul class="styled-icons icon-dark icon-circled icon-theme-color-orange icon-sm pull-left flip">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                  <a class="btn btn-theme-color-orange btn-sm pull-right flip" href="page-teachers-details.html">view details</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-sm-30 sm-text-center">
-              <div class="team maxwidth400">
                 <div class="thumb"><img class="img-fullwidth" src="images/team/team6.jpg" alt=""></div>
                 <div class="content border-1px p-15 bg-theme-color-red clearfix">
                   <h3 class="name mt-0 text-white">Sakib Smith</h3>
-                  <p class="mb-20 text-white">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <p class="mb-20 text-white">Head Teachers of Avicenna Elementary School</p>
                   <ul class="styled-icons icon-dark icon-circled icon-theme-color-green icon-sm pull-left flip">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                   </ul>
-                  <a class="btn btn-theme-color-green btn-sm pull-right flip" href="page-teachers-details.html">view details</a>
+                 <!--  <a class="btn btn-theme-color-green btn-sm pull-right flip" href="page-teachers-details.html">view details</a> -->
                 </div>
               </div>
             </div>
@@ -1079,28 +780,13 @@
                 <div class="thumb"><img class="img-fullwidth" src="images/team/team7.jpg" alt=""></div>
                 <div class="content border-1px p-15 bg-theme-color-yellow clearfix">
                   <h3 class="name mt-0 text-white">Ismail Jon</h3>
-                  <p class="mb-20 text-white">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <p class="mb-20 text-white">Proprietor/Proprietress of Avicenna Elementary School</p>
                   <ul class="styled-icons icon-dark icon-circled icon-theme-color-sky icon-sm pull-left flip">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                   </ul>
-                  <a class="btn btn-theme-color-sky btn-sm pull-right flip" href="page-teachers-details.html">view details</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 sm-text-center">
-              <div class="team maxwidth400">
-                <div class="thumb"><img class="img-fullwidth" src="images/team/team8.jpg" alt=""></div>
-                <div class="content border-1px p-15 bg-theme-color-sky clearfix">
-                  <h3 class="name mt-0 text-white">Andre Smith</h3>
-                  <p class="mb-20 text-white">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
-                  <ul class="styled-icons icon-dark icon-circled icon-theme-color-red icon-sm pull-left flip">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                  <a class="btn btn-theme-color-red btn-sm pull-right flip" href="page-teachers-details.html">view details</a>
+                 <!--  <a class="btn btn-theme-color-sky btn-sm pull-right flip" href="page-teachers-details.html">view details</a> -->
                 </div>
               </div>
             </div>
@@ -1119,7 +805,7 @@
               <div class="title-flaticon">
                 <i class="flaticon-charity-alms"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+              <p>Education is far beyond the four wall of the classroom <br> that why we engage our students in activities that improves them physically and intellectually.</p>
             </div>
           </div>
         </div>
@@ -1321,7 +1007,7 @@
               <div class="title-flaticon">
                 <i class="flaticon-charity-alms"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p> -->
             </div>
           </div>
         </div>
@@ -1424,207 +1110,9 @@
       </div>
     </section>
 
-    <!-- Section: Client Say -->
-    <section class="divider" data-bg-img="images/bg/p3.jpg">
-      <div class="container pt-60 pb-60">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 class="line-bottom-center text-white text-center mt-0 mb-30">Happy Parent's Say</h2>
-            <div class="owl-carousel-1col" data-dots="true">
-              <div class="item">
-                <div class="testimonial-wrapper text-center">
-                  <div class="thumb"><img class="img-circle" alt="" src="images/testimonials/1.jpg"></div>
-                  <div class="content pt-10">
-                    <p class="font-15 text-white font-weight-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque itaque officiis et sit. Vero quo, impedit neque.</p>
-                    <i class="fa fa-quote-right font-36 mt-10 text-theme-color-red"></i>
-                    <h4 class="author mb-0 text-theme-color-sky">Catherine Grace</h4>
-                    <h6 class="title text-white mt-0 mb-15">Designer</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-wrapper text-center">
-                  <div class="thumb"><img class="img-circle" alt="" src="images/testimonials/2.jpg"></div>
-                  <div class="content pt-10">
-                    <p class="font-15 text-white font-weight-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque itaque officiis et sit. Vero quo, impedit neque.</p>
-                    <i class="fa fa-quote-right font-36 mt-10 text-theme-color-red"></i>
-                    <h4 class="author mb-0 text-theme-color-sky">Catherine Grace</h4>
-                    <h6 class="title text-white mt-0 mb-15">Designer</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-wrapper text-center">
-                  <div class="thumb"><img class="img-circle" alt="" src="images/testimonials/3.jpg"></div>
-                  <div class="content pt-10">
-                    <p class="font-15 text-white font-weight-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque itaque officiis et sit. Vero quo, impedit neque.</p>
-                    <i class="fa fa-quote-right font-36 mt-10 text-theme-color-red"></i>
-                    <h4 class="author mb-0 text-theme-color-sky">Catherine Grace</h4>
-                    <h6 class="title text-white mt-0 mb-15">Designer</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section: blog -->
-    <section id="blog" data-bg-img="images/bg/p2.jpg">
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="line-bottom-center mt-0">Letest <span class="text-theme-color-red">News</span></h2>
-              <div class="title-flaticon">
-                <i class="flaticon-charity-alms"></i>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <article class="post clearfix mb-sm-30">
-                <div class="entry-header">
-                  <div class="post-thumb thumb"> 
-                    <img src="images/blog/2.jpg" alt="" class="img-responsive img-fullwidth"> 
-                  </div>
-                </div>
-                 <div class="bg-theme-color-red p-5 text-center pt-10 pb-10">
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-share-alt mr-5 text-white"></i>24 Share</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                 </div>
-                <div class="entry-content bg-white p-20 pr-10">
-                  <div class="entry-meta media mt-0 no-bg no-border">
-                    <div class="entry-date media-left text-center flip bg-theme-color-red pt-5 pr-15 pb-5 pl-15">
-                      <ul>
-                        <li class="font-16 text-white font-weight-600 border-bottom">28</li>
-                        <li class="font-12 text-white text-uppercase">Feb</li>
-                      </ul>
-                    </div>
-                    <div class="media-body pl-15">
-                      <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white m-0 mt-5"><a href="#">This is a standard post with thumbnail</a></h4>                      
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis deleniti, sint assumenda.</p>
-                  <a href="#" class="btn btn-sm btn-theme-color-red mt-10">Read more</a>
-                </div>
-              </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <article class="post clearfix mb-sm-30">
-                <div class="entry-header">
-                  <div class="post-thumb thumb"> 
-                    <img src="images/blog/5.jpg" alt="" class="img-responsive img-fullwidth"> 
-                  </div>
-                </div>
-                 <div class="bg-theme-color-sky p-5 text-center pt-10 pb-10">
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-share-alt mr-5 text-white"></i>24 Share</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                 </div>
-                <div class="entry-content bg-white p-20 pr-10">
-                  <div class="entry-meta media mt-0 no-bg no-border">
-                    <div class="entry-date media-left text-center flip bg-theme-color-sky pt-5 pr-15 pb-5 pl-15">
-                      <ul>
-                        <li class="font-16 text-white font-weight-600 border-bottom">28</li>
-                        <li class="font-12 text-white text-uppercase">Feb</li>
-                      </ul>
-                    </div>
-                    <div class="media-body pl-15">
-                      <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white m-0 mt-5"><a href="#">This is a standard post with thumbnail</a></h4>                      
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis deleniti, sint assumenda.</p>
-                  <a href="#" class="btn btn-default btn-sm btn-theme-color-sky mt-10">Read more</a>
-                </div>
-              </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <article class="post clearfix mb-sm-30">
-                <div class="entry-header">
-                  <div class="post-thumb thumb"> 
-                    <img src="images/blog/7.jpg" alt="" class="img-responsive img-fullwidth"> 
-                  </div>
-                </div>
-                 <div class="bg-theme-color-yellow p-5 text-center pt-10 pb-10">
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-share-alt mr-5 text-white"></i>24 Share</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                    <span class="mb-10 text-white mr-10 font-13"><i class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                 </div>
-                <div class="entry-content bg-white p-20 pr-10">
-                  <div class="entry-meta media mt-0 no-bg no-border">
-                    <div class="entry-date media-left text-center flip bg-theme-color-yellow pt-5 pr-15 pb-5 pl-15">
-                      <ul>
-                        <li class="font-16 text-white font-weight-600 border-bottom">28</li>
-                        <li class="font-12 text-white text-uppercase">Feb</li>
-                      </ul>
-                    </div>
-                    <div class="media-body pl-15">
-                      <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white m-0 mt-5"><a href="#">This is a standard post with thumbnail</a></h4>                      
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis deleniti, sint assumenda.</p>
-                  <a href="#" class="btn btn-default btn-sm btn-theme-color-yellow mt-10">Read more</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div> 
-          <img alt="" src="images/bg/f2.png" class="img-responsive img-fullwidth">
-      </div>
-    </section>
-
     <!-- Divider: Call To Action -->
     <section class="bg-theme-color-sky">
-      <div class="container pt-10 pb-20">
-        <div class="row">
-          <div class="call-to-action">
-            <div class="col-md-6">
-              <h3 class="mt-5 mb-5 text-white vertical-align-middle"><i class="pe-7s-mail mr-10 font-48 vertical-align-middle"></i> SUBSCRIBE TO OUR NEWSLETTER</h3>
-            </div>
-            <div class="col-md-6">
-              <!-- Mailchimp Subscription Form Starts Here -->
-              <form id="mailchimp-subscription-form" class="newsletter-form mt-10">
-                <div class="input-group">
-                  <input type="email" value="" name="EMAIL" placeholder="Your Email" class="form-control input-lg font-16" data-height="45px" id="mce-EMAIL-call">
-                  <span class="input-group-btn">
-                    <button data-height="45px" class="btn bg-theme-color-red text-white btn-xs m-0 font-14" type="submit">Subscribe</button>
-                  </span>
-                </div>
-              </form>
-              <!-- Mailchimp Subscription Form Validation-->
-              <script type="text/javascript">
-                $('#mailchimp-subscription-form').ajaxChimp({
-                    callback: mailChimpCallBack,
-                    url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-                });
-
-                function mailChimpCallBack(resp) {
-                    // Hide any previous response text
-                    var $mailchimpform = $('#mailchimp-subscription-form'),
-                        $response = '';
-                    $mailchimpform.children(".alert").remove();
-                    if (resp.result === 'success') {
-                        $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                    } else if (resp.result === 'error') {
-                        $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                    }
-                    $mailchimpform.prepend($response);
-                }
-              </script>
+    
               <!-- Mailchimp Subscription Form Ends Here -->
             </div>
           </div>
@@ -1636,7 +1124,12 @@
   </div>
 
   <!-- Footer -->
-  <?php include "includes/footer.php"; ?>
+
+
+ <?php include "includes/footer.php"; ?>
+
+
+
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
@@ -1645,8 +1138,6 @@
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
        The following part can be removed on Server for On Demand Loading) -->
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -1660,5 +1151,4 @@
 
 </body>
 
-<!-- Mirrored from html.kodesolution.live/s/kidspro/v2.1/demo/index-mp-layout2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 22:26:23 GMT -->
 </html>
